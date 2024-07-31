@@ -12,6 +12,7 @@
     <div id="app">
       <div class="nav-bar"></div>
       <app-item :unit="tree" :choiceFileArr="file" @pass-value="addFile" @message=""></app-item>
+      <p>{{file}}</p>
       <button class="button" @click="onSubmit">Submit</button>
     </div>
 
